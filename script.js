@@ -143,7 +143,7 @@
 
 // prompt
 // prompt("enter your name")
-// const myAge = prompt("enter gour age")
+// const myAge = prompt("enter your age")
 // console.log (myAge)
 
 
