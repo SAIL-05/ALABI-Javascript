@@ -154,6 +154,7 @@ if (number%2===0){
 else{
     alert(`${number} is odd`)
 }
+//
 
 
 
