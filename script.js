@@ -154,7 +154,27 @@ if (number%2===0){
 else{
     alert(`${number} is odd`)
 }
-//
+/// write a program that transforms a numerical grade to a letter grade (e.g grade 0-39 should display "F", grade40-44 should dipaly "E", grade 45-49 shoild 
+// display "D", grade 50-59 should display "c", grade 60-69 should display "B", grade 70-100 should display "A").
+
+let grade = parseInt(prompt("Enter grade"));
+
+if (grade >= 0 && grade <= 39) {
+    alert(`your grade is F`)
+ }
+ else if (grade >= 40 && grade <= 44){
+     alert (`your grade is E`)
+ }
+ else if (grade >=50 && grade <=59 ) {
+    alert(`your grade is C`)
+ }
+ else if (grade >= 60 && grade <= 69 ) {
+    alert(`your grade is B`)
+ }
+ if (grade >= 70 && grade <=100 ) {
+    alert(`your grade is A`)
+ };
+
 
 
 
