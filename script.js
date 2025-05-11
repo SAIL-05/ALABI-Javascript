@@ -174,6 +174,217 @@ if (grade >= 0 && grade <= 39) {
  if (grade >= 70 && grade <=100 ) {
     alert(`your grade is A`)
  };
+// write a program to check whether a user entered year is  a leap year or not .
+
+// let year = parseInt(prompt("Enter year"));
+// if (year%2===0){
+//     alert(`leap year`)
+// }
+// else {
+//     alert(`Not a leap year`)
+// }
+// write a program that ask the userto enter a password and checks if it matchs
+// a stored password using ===
+
+// let password = parseInt(prompt("enter password"));
+// if (password===1234){
+//     alert(`valid`)
+// }
+// else{
+//     alert(`Invalid`)
+// }
+
+//Write a program that calculates the ticket price based on age with the following 
+// conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60
+//  pay a ticket price of 20, age over 60 play a ticket price of 15.
+// let  age = parseInt(prompt("enter your number"));
+
+// if (age < 12 ) {
+//   alert(`pay 5`)
+// }
+// else if (age < 18){
+//   alert(`pay10`)
+// }
+// else if (age < 60){
+//   alert(`pay20`)
+// }
+// else{
+//   alert (`pay15`)
+// }
+
+//// Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 discount 
+// have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
+
+// let amount = parseInt(prompt("amount"))
+// if (amount >= 100){
+//     alert (`${amount}` * 0.2)
+// }
+// else if (amount >= 50){
+//     alert (`${amount}` * 0.1)
+// }
+// else {
+//     alert( "discount is 0")
+// }
+
+
+
+// Write a program that greets the user based on the time of day. 
+// Display good morning, good afternnon or good evening based on the time of day when you run the code.
+
+// let time = parseInt(prompt("enter a number"));
+
+// if ( time >=1 && time <=12) {
+//   alert( `Good morning `)
+// }
+// else if(time >=13 && time<=16){
+//   alert(`Good afternoon`)
+// }
+// else if(time >=17 && time <=19){
+//   alert(`Good evening`)
+// }
+// else {
+//   alert(`Good night. Sleep well`)
+// }
+
+// Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give
+//  players clues if their guess is higher, lower or correct.
+
+ let number = parseInt(prompt("enter your guess"))
+
+ if (number === 52){
+     alert(`${number} is correct `)
+ }
+else if (number < 52){
+     alert("you guess is lower")
+ }
+ else if (number > 52){
+     alert("your guess is higher")
+ }
+ else {
+     alert('try again')
+}
+ 
+
+// Write a program that calculates the Body Mass Index (BMI) and categorizes it. The formula for BMI is: 
+// weight / (height * height).
+//Underweight (below 18.5), Healthy Weight (18.5 to 24.9), Overweight (25 to 29.9), and Obese (30 or greater)
+
+let BMI = parseInt(prompt("enter a number"));
+if (BMI <= 18.5 ){
+  alert(`Underweight`)
+}
+else if (BMI <=24.9 ){
+  alert(`${BMI}Healthy  Weight`)
+}
+else if(BMI <=29.9){
+  alert(`Over Weight`)
+}
+else{
+  alert(`Obese`)
+}//Write a program that calculates the ticket price based on age with the following 
+// conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60
+//  pay a ticket price of 20, age over 60 play a ticket price of 15.
+// let  age = parseInt(prompt("enter your number"));
+
+// if (age < 12 ) {
+//   alert(`pay 5`)
+// }
+// else if (age < 18){
+//   alert(`pay10`)
+// }
+// else if (age < 60){
+//   alert(`pay20`)
+// }
+// else{
+//   alert (`pay15`)
+// }
+
+//// Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 discount 
+// have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
+
+// let amount = parseInt(prompt("amount"))
+// if (amount >= 100){
+//     alert (`${amount}` * 0.2)
+// }
+// else if (amount >= 50){
+//     alert (`${amount}` * 0.1)
+// }
+// else {
+//     alert( "discount is 0")
+// }
+
+
+
+// Write a program that greets the user based on the time of day. 
+// Display good morning, good afternnon or good evening based on the time of day when you run the code.
+
+// let time = parseInt(prompt("enter a number"));
+
+// if ( time >=1 && time <=12) {
+//   alert( `Good morning `)
+// }
+// else if(time >=13 && time<=16){
+//   alert(`Good afternoon`)
+// }
+// else if(time >=17 && time <=19){
+//   alert(`Good evening`)
+// }
+// else {
+//   alert(`Good night. Sleep well`)
+// }
+
+// Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give
+//  players clues if their guess is higher, lower or correct.
+
+ let number = parseInt(prompt("enter your guess"))
+
+ if (number === 52){
+     alert(`${number} is correct `)
+ }
+else if (number < 52){
+     alert("you guess is lower")
+ }
+ else if (number > 52){
+     alert("your guess is higher")
+ }
+ else {
+     alert('try again')
+}
+ 
+
+// Write a program that calculates the Body Mass Index (BMI) and categorizes it. The formula for BMI is: 
+// weight / (height * height).
+//Underweight (below 18.5), Healthy Weight (18.5 to 24.9), Overweight (25 to 29.9), and Obese (30 or greater)
+
+let BMI = parseInt(prompt("enter a number"));
+if (BMI <= 18.5 ){
+  alert(`Underweight`)
+}
+else if (BMI <=24.9 ){
+  alert(`${BMI}Healthy  Weight`)
+}
+else if(BMI <=29.9){
+  alert(`Over Weight`)
+}
+else{
+  alert(`Obese`)
+}v
+
+//Write a program that checks if a given number is positive, negative, or zero.
+// let number = parseInt(prompt("enter your number"))
+
+// if (number > 0){
+//   alert (`${number} is positive`)
+// }
+// else if (number === 0){
+//   alert ("invalid number")
+// }
+// else if (isNaN (number)){
+//   alert("not a number")
+// }
+// else {
+//   alert (`${number} is negtive`)
+// }
 
 
 
