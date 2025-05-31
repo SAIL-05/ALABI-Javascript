@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#open{
+    color: darkred;
+}
+.prise {
+    color: green;
+    font-weight: bold;
+  }
+
+  .two {
+    color: blue;
+    font-weight: bolder;
+
+  }
+
+#flows{
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: lawngreen;
+    color: blue;
+  }

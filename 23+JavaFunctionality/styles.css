@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 70px 100px;
+    background-color: blue;
+    box-sizing: border-box;
+    height: 100px;
+
+}
+.myprofile{
+    
+    padding: 100px 120px;
+    background-color: olivedrab;
+
+    #me{
+        border-radius: 20px;
+
+    }
+    .location{
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .job{
+        font-size: 15px;
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .links{
+        padding:  10px 20px;
+        .g{
+            margin-bottom:5px ;
+            color: orangered;
+
+        }
+        .tweet{
+            margin-bottom:5px ;
+            color: black;
+        }
+        .face{
+            margin-bottom:5px ;
+            color: blue;
+
+        }
+        .lin{
+            margin-bottom:5px ;
+            color:blueviolet ;
+        }
+        .star{
+            margin-bottom:5px ;
+            color: red;
+        }
+
+    }
+
+
+
+}
