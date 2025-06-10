@@ -20,7 +20,7 @@ function toCheckTheHighest (a:number, b:number, c:number, d:number):number
  return Math.max(a,b,c,d)
 }
 
-
+// checking
 // with object
 let studentData:{name:string, grade: string, score:number, pass:boolean
     = {
