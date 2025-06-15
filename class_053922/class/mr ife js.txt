@@ -1,0 +1,14 @@
+
+2x + 3y = 6 ------ eq 1
+4x + 6y = 8 ------ eq 2
+
+
+From eq 1, make x subject of formular
+
+x = (6 - 3y) / 2    ---- eq 3
+
+
+Put eq 3 in eq 2
+
+4()
+

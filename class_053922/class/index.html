@@ -1,0 +1,183 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <style>
+      .container {
+        width: 50%;
+        margin: 0px auto;
+      }
+      .box {
+        width: 100%;
+        height: 200px;
+        background: black;
+      }
+      p {
+        font-size: 18px;
+      }
+      .text {
+        color: red;
+      }
+
+      #header {
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body >
+    <p class="text">I am working</p>
+    <p class="text">I am also working</p>
+    <p class="text">I am also also working</p>
+    <p class="text">I am also also also working</p>
+
+
+    <h2 id="header">This is by using ID</h2>
+
+
+    <ul>
+      <li>Seasoning</li>
+      <li>Salt</li>
+      <li>Curry</li>
+      <li>Rice</li>
+      <li>Thyme</li>
+    </ul>
+
+
+    <div class="container">
+      <div class="box"></div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid amet
+        saepe harum dolore. Impedit maiores explicabo, consectetur qui debitis
+        natus sapiente exercitationem veniam pariatur, enim nulla, rem sed
+        eligendi repudiandae. Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Aliquid amet saepe harum dolore. Impedit maiores
+        explicabo, consectetur qui debitis natus sapiente exercitationem veniam
+        pariatur, enim nulla, rem sed eligendi repudiandae. Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Aliquid amet saepe harum dolore.
+        Impedit maiores explicabo, consectetur qui debitis natus sapiente
+        exercitationem veniam pariatur, enim nulla, rem sed eligendi
+        repudiandae.
+      </p>
+    </div>
+
+    <br/>
+
+    <!-- <button onclick="alert('i have clicked on the button')">Please click me</button> -->
+
+    <!-- <button onclick="showAlert()">Please click me</button> -->
+
+        <button>Please click me</button>
+        <br/>
+           <br/>
+              <br/>
+        <h1 class="heading">Open</h1>
+
+       
+
+        <button id="heading">Click Me</button>
+
+
+    <!-- <script src="./script.js"></script> -->
+    <script>
+
+
+      []
+      new Array
+
+      const opener= ()=>{
+        let check =  document.getElementsByClassName('heading')[0] 
+        if ( check.innerText === "Open") {
+          check.innerText = "Close"
+        } else {
+          check.innerText = "Open"
+        }
+      }
+
+      document.getElementById("heading").addEventListener(
+        "click", opener
+      )
+      // for (let i = 1; i <= 50; i++) {
+      //   console.log(i);
+      // }
+
+      // function greetMe(name) {
+
+      // }
+      // greetMe('dfdffdfd')
+
+      // for(initializer, conditionals, increment) {
+
+      // }
+      // if( i < 10)
+      // let val = 1;
+      // val++
+      // val+= 2
+
+      //   let scores = [50, 60, 70, 80, 90];
+      //   let num = 1;
+      //   let num2 = 1;
+
+      //  let name = 'ife'
+
+      //  console.log('ife')
+      //  console.log(name)
+
+      //  scores[1] === scores[num] === scores[num2]
+
+      //   console.log(scores[0]);
+      //   console.log(scores[1])
+      //   console.log(scores[2]);
+      //   console.log(scores[3]);
+      //   console.log(scores[4]);
+      //   console.log(scores[num]);
+
+      //   for (let i = 0; i < 5; i++) {
+
+      //     console.log("scores =", scores[i]);
+      //   }
+
+      // for(let i = 5; i <= 20; i++) {
+      //     console.log('this is the value of i', i);
+      // }
+      // for( let i = 0; i < 10; i++) {
+      //     console.log('This is the value of i', i)
+      //     console.log("This is the value of i", i)
+      // }
+      // console.log('we are learning loops')
+
+      // for(let startingIndex = 1; startingIndex < 50; startingIndex += 2) {
+      //     if(startingIndex % 2 === 0) {
+      //         console.log(startingIndex, ' is an even number')
+      //     } else {
+      //         console.log(startingIndex, ' is an odd number')
+      //     }
+      // }
+
+      console.log("https://jsonplaceholder.typicode.com/users")
+
+      fetch("https://jsonplaceholder.typicode.com/users").then(res => res.json()).then(data => console.log(data)).catch(error => console.log("An Error Occoured",error))
+      
+      // fetch("https://jsonplaceholder.typicode.com/users").then(res=> res.json()).then(data => console.log(data))
+
+
+      function myName(){
+
+      }
+
+      const yourName = () =>{
+
+      }
+
+      const a = 34
+      const test = `i am ${a}`
+
+
+
+      const {name, age, height} = {
+        name: "Test",
+        age: 56,
+        height: 35
+      }
+      console.log(name)
+    </script>
+  </body>
+</html>
